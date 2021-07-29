@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coworkingspaces">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/main"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoworkingSpaces">
+        <activity android:name=".qr_based_leaving.LeaveSpaceSuccessful"></activity>
+        <activity android:name=".qr_based_leaving.LeaveSpaceActivity" />
+        <activity android:name=".synchronize_calendars.CalendarActivity" />
+        <activity android:name=".events.CreatedEventsActivity" />
+        <activity android:name=".conference_room_booking.EmptyActivity" />
+        <activity android:name=".conference_room_booking.ListaSaliActivity2" />
+        <activity android:name=".voice_assistant_setup.Asistent_Vocal_Settings" />
+        <activity android:name="com.example.coworkingspaces.other_activities.user_main_activity.UserHomePageActivity" />
+        <activity android:name="com.example.coworkingspaces.other_activities.authentication.RegisterActivity" />
+        <activity android:name="com.example.coworkingspaces.other_activities.authentication.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".communication_channels.JoinAChatActivity" />
+        <activity android:name=".communication_channels.ChatWithOthersActivity" />
+        <activity android:name=".communication_channels.ChannelsActivity" />
+        <activity android:name="com.example.coworkingspaces.other_activities.admin_main_activity.AdminHomePageActivity" />
+        <activity android:name=".coworking_packages.DetailedPackageActivity" />
+        <activity android:name=".choose_seat.ChooseSeatActivity" />
+        <activity android:name=".one_time_use.OneTimeUseActivity" />
+        <activity android:name=".conference_room_booking.ListaSaliClass" />
+        <activity android:name=".virtual_tour.VirtualTourActivity" />
+        <activity android:name=".qr_based_access.QrScanSuccessfulActivity" />
+        <activity android:name=".qr_based_access.QrScanActivity" />
+        <activity android:name=".coworking_packages.PackagesActivity" />
+        <activity android:name="com.example.coworkingspaces.other_activities.user_account.MyAccountActivity" />
+    </application>
+
+</manifest>

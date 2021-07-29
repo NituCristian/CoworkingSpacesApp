@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.coworkingspaces.other_activities.admin_main_activity.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_listaSali"
+            app:destination="@id/navigation_listaSali" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_listaSali"
+        android:name="com.example.coworkingspaces.conference_room_booking.ListaSali"
+        android:label="Lista Sali"
+        tools:layout="@layout/fragment_lista_sali" >
+        <action
+            android:id="@+id/action_navigation_listaSali_to_navigation_detaliiSala"
+            app:destination="@id/navigation_detaliiSala" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_detaliiSala"
+        android:name="com.example.coworkingspaces.conference_room_booking.DetaliiSala"
+        android:label="Detalii sala"
+        tools:layout="@layout/fragment_sala" >
+        <action
+            android:id="@+id/action_navigation_detaliiSala_to_navigation_listaSali2"
+            app:destination="@id/navigation_listaSali" />
+        <action
+            android:id="@+id/action_navigation_detaliiSala_to_rezervareSalaCreatedConfirmation"
+            app:destination="@id/navigation_rezervareSalaCreatedConfirmation" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.coworkingspaces.other_activities.admin_account.DashboardFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.coworkingspaces.other_activities.admin_chat.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.coworkingspaces.synchronize_calendars.Calendar"
+        android:label="@string/title_Calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_aplicatii_calendar"
+            app:destination="@id/navigation_aplicatii_calendar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_aplicatii_calendar"
+        android:name="com.example.coworkingspaces.synchronize_calendars.AlegereCalendar"
+        android:label="@string/title_aplicatii_calendar"
+        tools:layout="@layout/fragment_alegere_calendar" >
+        <action
+            android:id="@+id/action_navigation_aplicatii_calendar_to_navigation_sincronizare_succes"
+            app:destination="@id/navigation_sincronizare_succes" />
+        <action
+            android:id="@+id/action_navigation_aplicatii_calendar_to_navigation_sincronizare_fail"
+            app:destination="@id/navigation_sincronizare_fail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sincronizare_succes"
+        android:name="com.example.coworkingspaces.synchronize_calendars.SincronizareSucces"
+        android:label="@string/title_sincronizare_succes"
+        tools:layout="@layout/fragment_sincronizare_succes" >
+        <action
+            android:id="@+id/action_navigation_sincronizare_succes_to_navigation_calendar"
+            app:destination="@id/navigation_calendar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sincronizare_fail"
+        android:name="com.example.coworkingspaces.synchronize_calendars.SincronizareFail"
+        android:label="@string/title_sincronizare_fail"
+        tools:layout="@layout/fragment_sincronizare_esec" >
+        <action
+            android:id="@+id/action_navigation_sincronizare_fail_to_navigation_aplicatii_calendar"
+            app:destination="@id/navigation_aplicatii_calendar" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_rezervareSalaCreatedConfirmation"
+        android:name="com.example.coworkingspaces.conference_room_booking.RezervareSalaCreatedConfirmation"
+        android:label="Rezervare Confirmare"
+        tools:layout="@layout/fragment_rezervare_sala_succes" />
+
+    <fragment
+        android:id="@+id/navigation_homea"
+        android:name="com.example.coworkingspaces.other_activities.admin_main_activity.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_accounta"
+        android:name="com.example.coworkingspaces.other_activities.admin_account.DashboardFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_admin_account"/>
+
+    <fragment
+        android:id="@+id/navigation_chata"
+        android:name="com.example.coworkingspaces.other_activities.admin_chat.NotificationsFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_notifications" />
+
+
+
+</navigation>

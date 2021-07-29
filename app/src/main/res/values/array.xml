@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gest_activare">
+        <item>Nothing</item>
+        <item>Shake the phone for 2 seconds</item>
+        <item>Swipe-up with 3 fingers</item>
+        <item>Hold your palm over the screen for 3 seconds</item>
+        <item>Simultaneous press of both the volume buttons</item>
+    </string-array>
+
+    <string-array name="fraza_vocala_de_activare">
+        <item>Nothing</item>
+        <item>Hey there Coworking</item>
+        <item>Open up Coworking</item>
+        <item>Open sesame Coworking</item>
+    </string-array>
+
+    <string-array name="vocea_asistentului">
+        <item>Brian</item>
+        <item>David</item>
+        <item>Shannon</item>
+        <item>Lisa</item>
+        <item>Adele</item>
+    </string-array>
+</resources>

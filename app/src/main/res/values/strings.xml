@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">CoworkingSpaces</string>
+    <string name="title_activity_lista_sali">MainActivity</string>
+    <string name="title_main">Main</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main_nav">MainActivity</string>
+    <string name="title_activity_test">MainActivity</string>
+    <string name="nume_sala">Nume Sala</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one_time_use">One-time use</string>
+    <string name="one_time_use_description">You can reserve a seat for only one day. If you enjoy the atmosphere and our inspiring working conditions you may want to pick the coworking package that fits you the best.</string>
+    <string name="choose_seat_use_description">Currently the premium package is active for your account, so you can choose any type of seat.</string>
+    <string name="choose_seat">Choose seat</string>
+    <string name="choose_floor">Choose floor</string>
+    <string name="floor_1">Floor 1</string>
+    <string name="floor_2">Floor 2</string>
+    <string name="floor_3">Floor 3</string>
+    <string name="choose_location">Choose location</string>
+    <string name="enter_desired_location">Desired location:</string>
+    <string name="date">Date</string>
+    <string name="selected_date">Date: dd/mm/yyyy</string>
+    <string name="select_date">Select date</string>
+    <string name="extra_options">Extra options</string>
+    <string name="option_1">Parking spot for car</string>
+    <string name="option_2">Packages pick-up</string>
+    <string name="option_3">Big locker</string>
+    <string name="seat_option_1">Height-adjustable table</string>
+    <string name="seat_option_2">Two extra monitors</string>
+    <string name="seat_option_3">Comfort plus chair</string>
+    <string name="check_out">Check-out</string>
+    <string name="current_price">Current price:</string>
+    <string name="price">0.0 lei</string>
+    <string name="coworking_package_name">Coworking package 1</string>
+    <string name="package_price">Price: undefined lei</string>
+    <string name="view_package">View package</string>
+    <string name="unselected">Unselected</string>
+    <string name="features">Features</string>
+    <string name="interval">Interval</string>
+    <string name="select_initial_date">Select initial date</string>
+    <string name="select_final_date">Select final date</string>
+    <string name="initial_date">Initial date: dd/mm/yyyy</string>
+    <string name="final_date">Final date: dd/mm/yyyy</string>
+    <string name="select_interval">Select interval</string>
+    <string name="select_package">Select package</string>
+    <string name="features_list_one">
+        <li>Item one</li>
+        \n <li>Item two</li>
+        \n <li>Item three</li>
+        \n <li>Item four</li>
+        \n <li>Item five</li>
+    </string>
+    <string name="features_list_sala">
+        <li>Wi-Fi</li>
+        \n <li>Coffee machine</li>
+        \n <li>Heating and AC</li>
+        \n <li>Projector</li>
+        \n <li>Snacks</li>
+    </string>
+    <string name="title_Calendar">Calendar</string>
+    <string name="title_aplicatii_calendar">Aplicatii Sincronizarare Calenar</string>
+    <string name="title_sincronizare_succes">Sincronizare calendar</string>
+    <string name="title_sincronizare_fail">Sinronizare calendar</string>
+
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="title_activity_event_creation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_account">Account</string>
+    <string name="title_chat">Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="currency_array">
+        <item>RON</item>
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="rooms_for_events">
+        <item>First Floor</item>
+        <item>Second Floor</item>
+        <item>Third Floor</item>
+        <item>Room 100</item>
+        <item>Room 102</item>
+        <item>Room 201</item>
+        <item>Room 204</item>
+        <item>Room 300</item>
+        <item>Room 301</item>
+        <item>Room 302</item>
+        <item>Room 303</item>
+    </string-array>
+
+    <string name="qrScanningSuccessful">The access was granted successfully!</string>
+    <string name="welcomeMessage">Welcome</string>
+    <string name="virtualTourButton">Make a virtual tour</string>
+    <string name="backToLogin">Back to login page</string>
+
+    <string name="typeRoom1">Shared office</string>
+    <string name="typeRoom2">Conference room</string>
+    <string name="typeRoom3">Executive suite</string>
+
+    <string name="nameRoom1">Office A2</string>
+    <string name="nameRoom2">Saint Benedict</string>
+    <string name="nameRoom3">Premium B1</string>
+
+    <string name="capacityRoom1">100 places</string>
+    <string name="capacityRoom2">25 places</string>
+    <string name="capacityRoom3">20 places</string>
+
+    <string name="descriptionRoom1">\u2022 Personal desk\n\u2022 Full-time internet access\n\u2022 Cupboard for personal things</string>
+    <string name="descriptionRoom2">\u2022 Four rectangular tables\n\u2022 PC-compatible projection equipment \n\u2022 Whiteboards and markers</string>
+    <string name="descriptionRoom3">\u2022 Private reception and phone booths\n\u2022 Private conference room\n\u2022 Video conference room </string>
+
+</resources>
